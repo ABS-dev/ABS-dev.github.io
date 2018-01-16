@@ -1,12 +1,84 @@
-<img src = "https://avatars1.githubusercontent.com/u/8005388?s=200&v=4" alt = "ABS logo">
-Animal Biologics Statisticians
+<div style="max-width:80%;margin:20px auto auto auto;font-family:Segoe UI Semibold, Helvetica, Arial, sans-serif;color:rgb(36,41,46); font-weight:600">
 
-<hr>
+  <a href="https://github.com/ABS-dev"><img src = "https://raw.githubusercontent.com/ABS-dev/ABS-dev.github.io/master/media/logo.png" alt = "ABS logo"></a><br>Animal Biologics Statisticians<hr style="height:1px;border:none;color:rgb(234,236,239);background-color:rgb(234,236,239);"/><br>
 
 
-<h2> Package Installation Instructions</h2>
-<h4>DiagTestKit</h4>
-<h4>MF</h4>
-<h4>PF</h4>
-<h4>skrmdb</h4>
+<p style="font-size:28px; color:rgb(36,41,46);margin-bottom:10px"> R Package Installation Instructions</p>
+<span style="font-family: Segoe UI, Helvetica, Arial, sans-serif;font-weight:400">Select package source link for extended installation instructions, vignettes and updates.</span><br><br>
 
+
+<!-- DIAGTESTKIT -->
+
+<h4>DiagTestKit - <a href="https://github.com/ABS-dev/DiagTestKit/blob/master/README.md" target="_blank">source</a></h4>
+  <div style="margin-left:10px;font-weight:400;font-family:Segoe UI, Helvetica, Arial, sans-serif;">A package written by CVB Statistics to estimate the sensitivity and specificity of an experimental diagnostic test kit in accordance with <a href="https://www.aphis.usda.gov/aphis/ourfocus/animalhealth/veterinary-biologics/biologics-regulations-and-guidance/ct_vb_statwi" target="_blank">CVB STATWI0002</a> supporting the 2018 revision to VSM 800.73.
+<pre style="background-color:#f6f8fa; border-radius:3px;padding:16px">
+## Installing v0.5.1 from <b>within R:</b>
+######################################
+
+## From source, all platforms, slow.
+require(devtools)
+install_github("ABS-dev/DiagTestKit", ref = "0.5.1")
+
+## Precompiled binary, Windows + R 3.2.x
+install.packages('https://github.com/ABS-dev/DiagTestKit/releases/download/0.5.1/DiagTestKit_0.5.1.zip', repos = NULL)
+</pre>
+vignettes: <a href="https://github.com/ABS-dev/DiagTestKit/blob/master/inst/doc/GettingStarted.pdf" target="_blank">Getting Started</a> - <a href="https://github.com/ABS-dev/DiagTestKit/blob/master/inst/doc/ExamplesForFallibleReferenceTests.pdf" target="_blank">Examples</a><br><br>
+</div>
+<hr style="height:1px;border:none;color:rgb(234,236,239);background-color:rgb(234,236,239);"/>
+
+
+
+
+
+<!-- MF -->
+<h4>MF - <a href = "https://github.com/ABS-dev/MF/blob/master/README.md" target ="_blank">source</a></h4>
+  <div style="margin-left:10px;font-weight:400;font-family:Segoe UI, Helvetica, Arial, sans-serif;">Mitigated Fraction
+<pre style="background-color:#f6f8fa; border-radius:3px;padding:16px">
+## Installing current version from <b>within R:</b>
+###############################################
+
+require(devtools)
+install_github("ABS-dev/MF")
+</pre>
+
+  </div>
+<br>
+<hr style="height:1px;border:none;color:rgb(234,236,239);background-color:rgb(234,236,239);"/>
+
+
+
+<!-- PF-->
+<h4>PF - <a href="https://github.com/ABS-dev/PF/blob/master/README.md">source</a></h4>
+<div style="margin-left:10px;font-weight:400;font-family:Segoe UI, Helvetica, Arial, sans-serif;">Prevented Fraction
+<pre style="background-color:#f6f8fa; border-radius:3px;padding:16px">
+## Installing current version from <b>within R:</b>
+###############################################
+
+require(devtools)
+install_github("ABS-dev/PF")
+</pre>
+vignette: <a href="https://github.com/ABS-dev/PF/blob/master/inst/doc/PFvignette.pdf" target="_blank">PF Vignette</a>
+<br><br>
+</div>
+
+<hr style="height:1px;border:none;color:rgb(234,236,239);background-color:rgb(234,236,239);"/>
+
+
+
+
+<!-- skrmdb -->
+<h4>skrmdb - <a href ="https://github.com/ABS-dev/skrmdb/blob/master/README.md">source</a></h4>
+
+  <div style="margin-left:10px;font-weight:400;font-family:Segoe UI, Helvetica, Arial, sans-serif;">Package to estimate ED50 by the methods of Spearman-Karber, Reed-Muench, and Dragstedt-Behrens.
+<pre style="background-color:#f6f8fa; border-radius:3px;padding:16px">
+## Installing current version from <b>within R:</b>
+###############################################
+
+require(devtools)
+install_github("ABS-dev/skrmdb")
+</pre>
+
+  </div>
+<br><br>
+<hr style="height:1px;border:none;color:rgb(234,236,239);background-color:rgb(234,236,239);"/>
+<span style="font-size:10px">Updated 01/16/2018</span>
