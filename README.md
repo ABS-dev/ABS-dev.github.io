@@ -1,10 +1,6 @@
 ABS-dev.github.io
 =================
 
-To update all R packages authored by ABS-dev:
+Development subgroup of the Animal Biologics Statisticians organization.
 
-From **within R**
-```
-require(devtools)
-install_github(c('ABS-dev/PF', 'ABS-dev/MF'))
-```
+Instructions for package installation may be found at http://abs-dev.github.io
