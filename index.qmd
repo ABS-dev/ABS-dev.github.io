@@ -19,7 +19,9 @@ Select package source link for extended installation instructions, vignettes and
 
 <hr>
 
-**DiagTestKit** - [source](https://github.com/ABS-dev/DiagTestKit) - [version history](https://github.com/ABS-dev/DiagTestKit/tags)
+**DiagTestKit** - 
+[source](https://github.com/ABS-dev/DiagTestKit) - 
+[version history](https://github.com/ABS-dev/DiagTestKit/tags)
 
 A package written by CVB Statistics to estimate the sensitivity and specificity of an experimental diagnostic test kit in accordance with [CVB STATWI0002](https://www.aphis.usda.gov/veterinary-biologics/regulations-guidance/statistical-methods) supporting the 2018 revision to [VSM 800.73](https://www.aphis.usda.gov/veterinary-biologics/memoranda).
 
@@ -40,11 +42,16 @@ devtools::install_github("ABS-dev/DiagTestKit", dependencies = TRUE)
 devtools::install_github("ABS-dev/DiagTestKit", ref = "0.5.0")
 ```
 
-Documentation and Vignettes: [Manual](https://github.com/ABS-dev/DiagTestKit/blob/main/inst/doc/DiagTestKit_0.6.11.pdf) - [Getting Started](https://github.com/ABS-dev/DiagTestKit/blob/main/inst/doc/DiagTestKit-Getting_Started.pdf) - [Examples](https://github.com/ABS-dev/DiagTestKit/blob/main/inst/doc/DiagTestKit-Examples.pdf) -
+Documentation and Vignettes -
+[Manual](https://github.com/ABS-dev/DiagTestKit/blob/main/inst/doc/DiagTestKit_0.6.11.pdf) - 
+[Getting Started](https://github.com/ABS-dev/DiagTestKit/blob/main/inst/doc/DiagTestKit-Getting_Started.pdf) -
+[Examples](https://github.com/ABS-dev/DiagTestKit/blob/main/inst/doc/DiagTestKit-Examples.pdf)
 
 <hr>
 
-**MF** - [source](https://github.com/ABS-dev/MF) - [version history](https://github.com/ABS-dev/MF/tags)
+**MF** - 
+[source](https://github.com/ABS-dev/MF) - 
+[version history](https://github.com/ABS-dev/MF/tags)
 
 Mitigated Fraction
 
@@ -65,11 +72,16 @@ devtools::install_github("ABS-dev/MF", dependencies = TRUE)
 devtools::install_github("ABS-dev/MF", ref = "4.3.3")
 ```
 
-Documentation and Vignettes: [Manual](https://github.com/ABS-dev/MF/blob/main/inst/doc/MF_4.4.11.pdf) - [Hierarchical Data Quick Start](https://github.com/ABS-dev/MF/blob/main/inst/doc/QuickStartHierData.pdf) - [Hierarchical Data](https://github.com/ABS-dev/MF/blob/main/inst/doc/MFHierarchicalData.pdf)
+Documentation and Vignettes -
+[Manual](https://github.com/ABS-dev/MF/blob/main/inst/doc/MF_4.4.11.pdf) -
+[Hierarchical Data Quick Start](https://github.com/ABS-dev/MF/blob/main/inst/doc/QuickStartHierData.pdf) -
+[Hierarchical Data](https://github.com/ABS-dev/MF/blob/main/inst/doc/MFHierarchicalData.pdf)
 
 <hr>
 
-**PF** - [source](https://github.com/ABS-dev/PF) - [version history](https://github.com/ABS-dev/PF/tags)
+**PF** - 
+[source](https://github.com/ABS-dev/PF) - 
+[version history](https://github.com/ABS-dev/PF/tags)
 
 Prevented Fraction
 
@@ -90,11 +102,15 @@ devtools::install_github("ABS-dev/PF", dependencies = TRUE)
 devtools::install_github("ABS-dev/PF", ref = "9.5")
 ```
 
-Documentation and Vignettes: [Manual](https://github.com/ABS-dev/PF/blob/main/inst/doc/PF_9.6.10.pdf) - [PF Vignette](https://github.com/ABS-dev/PF/blob/main/inst/doc/PFVignette.html)
+Documentation and Vignettes - 
+[Manual](https://github.com/ABS-dev/PF/blob/main/inst/doc/PF_9.6.10.pdf) - 
+[PF Vignette](https://github.com/ABS-dev/PF/blob/main/inst/doc/PFVignette.html)
 
 <hr>
 
-**skrmdb** - [source](https://github.com/ABS-dev/skrmdb) - [version history](https://github.com/ABS-dev/skrmdb/tags)
+**skrmdb** - 
+[source](https://github.com/ABS-dev/skrmdb) - 
+[version history](https://github.com/ABS-dev/skrmdb/tags)
 
 Package to estimate ED50 by the methods of Spearman-Kärber, Reed-Muench, and Drägstedt-Behrens.
 
@@ -115,6 +131,8 @@ devtools::install_github("ABS-dev/skrmdb", dependencies = TRUE)
 devtools::install_github("ABS-dev/skrmdb", ref = "4.2.4")
 ```
 
-Documentation and Vignettes: [Manual](https://github.com/ABS-dev/skrmdb/blob/main/inst/doc/skrmdb_4.5.0.pdf) - [skrmdb vignette](https://github.com/ABS-dev/skrmdb/blob/main/inst/doc/using_skrmdb.html)
+Documentation and Vignettes - 
+[Manual](https://github.com/ABS-dev/skrmdb/blob/main/inst/doc/skrmdb_4.5.0.pdf) -
+[skrmdb vignette](https://github.com/ABS-dev/skrmdb/blob/main/inst/doc/using_skrmdb.html)
 
 <small><small>Updated `r Sys.Date()`</small></small>
