@@ -26,7 +26,18 @@ A package written by CVB Statistics to estimate the sensitivity and specificity 
 ```{r}
 #| eval: false
 require(devtools)
+# Install latest version
 devtools::install_github("ABS-dev/DiagTestKit")
+```
+```{r}
+#| eval: false
+# Install dependencies
+devtools::install_github("ABS-dev/DiagTestKit", dependencies = TRUE)
+```
+```{r}
+#| eval: false
+# Install older version
+devtools::install_github("ABS-dev/DiagTestKit", ref = "0.5.0")
 ```
 
 Documentation and Vignettes: [Manual](https://github.com/ABS-dev/DiagTestKit/blob/main/inst/doc/DiagTestKit_0.6.11.pdf) - [Getting Started](https://github.com/ABS-dev/DiagTestKit/blob/main/inst/doc/DiagTestKit-Getting_Started.pdf) - [Examples](https://github.com/ABS-dev/DiagTestKit/blob/main/inst/doc/DiagTestKit-Examples.pdf) -
@@ -40,7 +51,18 @@ Mitigated Fraction
 ```{r}
 #| eval: false
 require(devtools)
+# Install latest version
 devtools::install_github("ABS-dev/MF")
+```
+```{r}
+#| eval: false
+# Install dependencies
+devtools::install_github("ABS-dev/MF", dependencies = TRUE)
+```
+```{r}
+#| eval: false
+# Install older version
+devtools::install_github("ABS-dev/MF", ref = "4.3.3")
 ```
 
 Documentation and Vignettes: [Manual](https://github.com/ABS-dev/MF/blob/main/inst/doc/MF_4.4.11.pdf) - [Hierarchical Data Quick Start](https://github.com/ABS-dev/MF/blob/main/inst/doc/QuickStartHierData.pdf) - [Hierarchical Data](https://github.com/ABS-dev/MF/blob/main/inst/doc/MFHierarchicalData.pdf)
@@ -54,7 +76,18 @@ Prevented Fraction
 ```{r}
 #| eval: false
 require(devtools)
+# Install latest version
 devtools::install_github("ABS-dev/PF")
+```
+```{r}
+#| eval: false
+# Install dependencies
+devtools::install_github("ABS-dev/PF", dependencies = TRUE)
+```
+```{r}
+#| eval: false
+# Install older version
+devtools::install_github("ABS-dev/PF", ref = "9.5")
 ```
 
 Documentation and Vignettes: [Manual](https://github.com/ABS-dev/PF/blob/main/inst/doc/PF_9.6.10.pdf) - [PF Vignette](https://github.com/ABS-dev/PF/blob/main/inst/doc/PFVignette.html)
@@ -68,7 +101,18 @@ Package to estimate ED50 by the methods of Spearman-Kärber, Reed-Muench, and Dr
 ```{r}
 #| eval: false
 require(devtools)
+# Install latest version
 devtools::install_github("ABS-dev/skrmdb")
+```
+```{r}
+#| eval: false
+# Install dependencies
+devtools::install_github("ABS-dev/skrmdb", dependencies = TRUE)
+```
+```{r}
+#| eval: false
+# Install older version
+devtools::install_github("ABS-dev/skrmdb", ref = "4.2.4")
 ```
 
 Documentation and Vignettes: [Manual](https://github.com/ABS-dev/skrmdb/blob/main/inst/doc/skrmdb_4.5.0.pdf) - [skrmdb vignette](https://github.com/ABS-dev/skrmdb/blob/main/inst/doc/using_skrmdb.html)
