@@ -117,4 +117,4 @@ devtools::install_github("ABS-dev/skrmdb", ref = "4.2.4")
 
 Documentation and Vignettes: [Manual](https://github.com/ABS-dev/skrmdb/blob/main/inst/doc/skrmdb_4.5.0.pdf) - [skrmdb vignette](https://github.com/ABS-dev/skrmdb/blob/main/inst/doc/using_skrmdb.html)
 
-<small>Updated 10/09/2024</small>
+<small><small>Updated `r Sys.Date()`</small></small>
