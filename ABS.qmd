@@ -1,0 +1,76 @@
+---
+format: 
+  html:
+    page-layout: full
+    embed-resources: true
+---
+
+[![](media/logo.png){fig-alt="Animal Biologics Statisticians Logo"}](https://github.com/ABS-dev)
+
+**Animal Biologics Statisticians**
+
+<hr>
+
+Animal Biologics Statisticians is an unofficial and unaffiliated group of individual statisticians interested in the application of statistical methods to animal biologics. In support of this endeavor, the ABS-dev subgroup maintains a github page to share examples of R code and packages we find of interest. Since these examples are not official products, the possible similarity of some of the methods to those used by official bodies may be useful for pedagogical purposes only, unless otherwise stated.
+
+# R Package Installation Instructions
+
+Select package source link for extended installation instructions, vignettes and current work in progress. Report any issues via the relevant package Issues tab and use a [minimal working example](media/CVB%20R%20Help.pdf).
+
+<hr>
+
+**DiagTestKit** - [source](https://github.com/ABS-dev/DiagTestKit) - [version history](https://github.com/ABS-dev/DiagTestKit/tags)
+
+A package written by CVB Statistics to estimate the sensitivity and specificity of an experimental diagnostic test kit in accordance with [CVB STATWI0002](https://www.aphis.usda.gov/veterinary-biologics/regulations-guidance/statistical-methods) supporting the 2018 revision to [VSM 800.73](https://www.aphis.usda.gov/veterinary-biologics/memoranda).
+
+```{r}
+#| eval: false
+require(devtools)
+devtools::install_github("ABS-dev/DiagTestKit")
+```
+
+Documentation and Vignettes: [Manual](https://github.com/ABS-dev/DiagTestKit/blob/main/inst/doc/DiagTestKit_0.6.11.pdf) - [Getting Started](https://github.com/ABS-dev/DiagTestKit/blob/main/inst/doc/DiagTestKit-Getting_Started.pdf) - [Examples](https://github.com/ABS-dev/DiagTestKit/blob/main/inst/doc/DiagTestKit-Examples.pdf) -
+
+<hr>
+
+**MF** - [source](https://github.com/ABS-dev/MF) - [version history](https://github.com/ABS-dev/MF/tags)
+
+Mitigated Fraction
+
+```{r}
+#| eval: false
+require(devtools)
+devtools::install_github("ABS-dev/MF")
+```
+
+Documentation and Vignettes: [Manual](https://github.com/ABS-dev/MF/blob/main/inst/doc/MF_4.4.11.pdf) - [Hierarchical Data Quick Start](https://github.com/ABS-dev/MF/blob/main/inst/doc/QuickStartHierData.pdf) - [Hierarchical Data](https://github.com/ABS-dev/MF/blob/main/inst/doc/MFHierarchicalData.pdf)
+
+<hr>
+
+**PF** - [source](https://github.com/ABS-dev/PF) - [version history](https://github.com/ABS-dev/PF/tags)
+
+Prevented Fraction
+
+```{r}
+#| eval: false
+require(devtools)
+devtools::install_github("ABS-dev/PF")
+```
+
+Documentation and Vignettes: [Manual](https://github.com/ABS-dev/PF/blob/main/inst/doc/PF_9.6.10.pdf) - [PF Vignette](https://github.com/ABS-dev/PF/blob/main/inst/doc/PFVignette.html)
+
+<hr>
+
+**skrmdb** - [source](https://github.com/ABS-dev/skrmdb) - [version history](https://github.com/ABS-dev/skrmdb/tags)
+
+Package to estimate ED50 by the methods of Spearman-Kärber, Reed-Muench, and Drägstedt-Behrens.
+
+```{r}
+#| eval: false
+require(devtools)
+devtools::install_github("ABS-dev/skrmdb")
+```
+
+Documentation and Vignettes: [Manual](https://github.com/ABS-dev/skrmdb/blob/main/inst/doc/skrmdb_4.5.0.pdf) - [skrmdb vignette](https://github.com/ABS-dev/skrmdb/blob/main/inst/doc/using_skrmdb.html)
+
+<small>Updated 10/09/2024</small>
