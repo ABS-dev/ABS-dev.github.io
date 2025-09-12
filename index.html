@@ -2185,73 +2185,120 @@ vertical-align: -.125em;
 <h1>R Package Installation Instructions</h1>
 <p>Select package source link for extended installation instructions, vignettes and current work in progress. Report any issues via the relevant package Issues tab and use a <a href="media/CVB%20R%20Help.pdf">minimal working example</a>.</p>
 <hr>
-<p><strong>DiagTestKit</strong> - <a href="https://github.com/ABS-dev/DiagTestKit">source</a> - <a href="https://github.com/ABS-dev/DiagTestKit/tags">version history</a></p>
-<p>A package written by CVB Statistics to estimate the sensitivity and specificity of an experimental diagnostic test kit in accordance with <a href="https://www.aphis.usda.gov/veterinary-biologics/regulations-guidance/statistical-methods">CVB STATWI0002</a> supporting the 2018 revision to <a href="https://www.aphis.usda.gov/veterinary-biologics/memoranda">VSM 800.73</a>.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">require</span>(devtools)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Install latest version</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">&quot;ABS-dev/DiagTestKit&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Install dependencies</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">&quot;ABS-dev/DiagTestKit&quot;</span>, <span class="at">dependencies =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Install older version</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">&quot;ABS-dev/DiagTestKit&quot;</span>, <span class="at">ref =</span> <span class="st">&quot;0.5.0&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>Documentation and Vignettes - <a href="https://github.com/ABS-dev/DiagTestKit/blob/main/inst/doc/DiagTestKit_0.6.11.pdf">Manual</a> - <a href="https://github.com/ABS-dev/DiagTestKit/blob/main/inst/doc/DiagTestKit-Getting_Started.pdf">Getting Started</a> - <a href="https://github.com/ABS-dev/DiagTestKit/blob/main/inst/doc/DiagTestKit-Examples.pdf">Examples</a></p>
-<hr>
+<div class="columns">
+<div class="column" style="width:49%;">
 <p><strong>MF</strong> - <a href="https://github.com/ABS-dev/MF">source</a> - <a href="https://github.com/ABS-dev/MF/tags">version history</a></p>
 <p>Mitigated Fraction</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">require</span>(devtools)</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Install latest version</span></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">&quot;ABS-dev/MF&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">require</span>(devtools)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Install latest version</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">&quot;ABS-dev/MF&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Install dependencies</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">&quot;ABS-dev/MF&quot;</span>, <span class="at">dependencies =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Install dependencies</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">&quot;ABS-dev/MF&quot;</span>,</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>                         <span class="at">dependencies =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Install older version</span></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">&quot;ABS-dev/MF&quot;</span>, <span class="at">ref =</span> <span class="st">&quot;4.3.3&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Install older version</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">&quot;ABS-dev/MF&quot;</span>,</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>                         <span class="at">ref =</span> <span class="st">&quot;4.3.3&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>Documentation and Vignettes - <a href="https://github.com/ABS-dev/MF/blob/main/inst/doc/MF_4.4.11.pdf">Manual</a> - <a href="https://github.com/ABS-dev/MF/blob/main/inst/doc/QuickStartHierData.pdf">Hierarchical Data Quick Start</a> - <a href="https://github.com/ABS-dev/MF/blob/main/inst/doc/MFHierarchicalData.pdf">Hierarchical Data</a></p>
-<hr>
+<p>Documentation and Vignettes:</p>
+<ul>
+<li><a href="https://github.com/ABS-dev/MF/blob/main/inst/doc/MF_4.4.11.pdf">Manual</a></li>
+<li><a href="https://github.com/ABS-dev/MF/blob/main/inst/doc/QuickStartHierData.pdf">Hierarchical Data Quick Start</a></li>
+<li><a href="https://github.com/ABS-dev/MF/blob/main/inst/doc/MFHierarchicalData.pdf">Hierarchical Data</a></li>
+</ul>
+</div><div class="column" style="width:2%;">
+
+</div><div class="column" style="width:49%;">
 <p><strong>PF</strong> - <a href="https://github.com/ABS-dev/PF">source</a> - <a href="https://github.com/ABS-dev/PF/tags">version history</a></p>
 <p>Prevented Fraction</p>
 <div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">require</span>(devtools)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Install latest version</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">&quot;ABS-dev/PF&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Install dependencies</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">&quot;ABS-dev/PF&quot;</span>,</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>                         <span class="at">dependencies =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Install older version</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">&quot;ABS-dev/PF&quot;</span>,</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>                         <span class="at">ref =</span> <span class="st">&quot;9.5&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Documentation and Vignettes</p>
+<ul>
+<li><a href="https://github.com/ABS-dev/PF/blob/main/inst/doc/PF_9.6.10.pdf">Manual</a></li>
+<li><a href="https://github.com/ABS-dev/PF/blob/main/inst/doc/PFVignette.html">PF Vignette</a></li>
+</ul>
+</div>
+</div>
+<hr>
+<div class="columns">
+<div class="column" style="width:49%;">
+<p><strong>skrmdb</strong></p>
+<ul>
+<li><a href="https://github.com/ABS-dev/skrmdb">source</a></li>
+<li><a href="https://github.com/ABS-dev/skrmdb/tags">version history</a></li>
+</ul>
+<p>Package to estimate ED50 by the methods of Spearman-Kärber, Reed-Muench, and Drägstedt-Behrens.</p>
+<div class="cell">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">require</span>(devtools)</span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Install latest version</span></span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">&quot;ABS-dev/PF&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">&quot;ABS-dev/skrmdb&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Install dependencies</span></span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">&quot;ABS-dev/PF&quot;</span>, <span class="at">dependencies =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">&quot;ABS-dev/skrmdb&quot;</span>,</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>                         <span class="at">dependencies =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Install older version</span></span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">&quot;ABS-dev/PF&quot;</span>, <span class="at">ref =</span> <span class="st">&quot;9.5&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">&quot;ABS-dev/skrmdb&quot;</span>,</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>                         <span class="at">ref =</span> <span class="st">&quot;4.2.4&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>Documentation and Vignettes - <a href="https://github.com/ABS-dev/PF/blob/main/inst/doc/PF_9.6.10.pdf">Manual</a> - <a href="https://github.com/ABS-dev/PF/blob/main/inst/doc/PFVignette.html">PF Vignette</a></p>
-<hr>
-<p><strong>skrmdb</strong> - <a href="https://github.com/ABS-dev/skrmdb">source</a> - <a href="https://github.com/ABS-dev/skrmdb/tags">version history</a></p>
-<p>Package to estimate ED50 by the methods of Spearman-Kärber, Reed-Muench, and Drägstedt-Behrens.</p>
+<p>Documentation and Vignettes</p>
+<ul>
+<li><a href="https://github.com/ABS-dev/skrmdb/blob/main/inst/doc/skrmdb_4.5.0.pdf">Manual</a></li>
+<li><a href="https://github.com/ABS-dev/skrmdb/blob/main/inst/doc/using_skrmdb.html">skrmdb vignette</a></li>
+</ul>
+</div><div class="column" style="width:2%;">
+
+</div><div class="column" style="width:49%;">
+<p><strong>DiagTestKit</strong></p>
+<ul>
+<li><a href="https://github.com/ABS-dev/DiagTestKit">source</a></li>
+<li><a href="https://github.com/ABS-dev/DiagTestKit/tags">version history</a></li>
+</ul>
+<p>A package written by CVB Statistics to estimate the sensitivity and specificity of an experimental diagnostic test kit in accordance with <a href="https://www.aphis.usda.gov/veterinary-biologics/regulations-guidance/statistical-methods">CVB STATWI0002</a> supporting the 2018 revision to <a href="https://www.aphis.usda.gov/veterinary-biologics/memoranda">VSM 800.73</a>.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">require</span>(devtools)</span>
 <span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Install latest version</span></span>
-<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">&quot;ABS-dev/skrmdb&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">&quot;ABS-dev/DiagTestKit&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Install dependencies</span></span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">&quot;ABS-dev/skrmdb&quot;</span>, <span class="at">dependencies =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">&quot;ABS-dev/DiagTestKit&quot;</span>,</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>                         <span class="at">dependencies =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Install older version</span></span>
-<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">&quot;ABS-dev/skrmdb&quot;</span>, <span class="at">ref =</span> <span class="st">&quot;4.2.4&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">&quot;ABS-dev/DiagTestKit&quot;</span>,</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>                         <span class="at">ref =</span> <span class="st">&quot;0.5.0&quot;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>Documentation and Vignettes - <a href="https://github.com/ABS-dev/skrmdb/blob/main/inst/doc/skrmdb_4.5.0.pdf">Manual</a> - <a href="https://github.com/ABS-dev/skrmdb/blob/main/inst/doc/using_skrmdb.html">skrmdb vignette</a></p>
+<p>Documentation and Vignettes</p>
+<ul>
+<li><a href="https://github.com/ABS-dev/DiagTestKit/blob/main/inst/doc/DiagTestKit_0.6.11.pdf">Manual</a></li>
+<li><a href="https://github.com/ABS-dev/DiagTestKit/blob/main/inst/doc/DiagTestKit-Getting_Started.pdf">Getting Started</a></li>
+<li><a href="https://github.com/ABS-dev/DiagTestKit/blob/main/inst/doc/DiagTestKit-Examples.pdf">Examples</a></li>
+</ul>
+</div>
+</div>
+<hr>
 <p><small><small>Updated 2025-09-12</small></small></p>
 </section>
 

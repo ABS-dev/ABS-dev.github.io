@@ -3,6 +3,8 @@ format:
   html:
     page-layout: full
     embed-resources: true
+execute: 
+  eval: false
 ---
 
 [![](media/logo.png){fig-alt="Animal Biologics Statisticians Logo"}](https://github.com/ABS-dev)
@@ -19,35 +21,8 @@ Select package source link for extended installation instructions, vignettes and
 
 <hr>
 
-**DiagTestKit** - 
-[source](https://github.com/ABS-dev/DiagTestKit) - 
-[version history](https://github.com/ABS-dev/DiagTestKit/tags)
-
-A package written by CVB Statistics to estimate the sensitivity and specificity of an experimental diagnostic test kit in accordance with [CVB STATWI0002](https://www.aphis.usda.gov/veterinary-biologics/regulations-guidance/statistical-methods) supporting the 2018 revision to [VSM 800.73](https://www.aphis.usda.gov/veterinary-biologics/memoranda).
-
-```{r}
-#| eval: false
-require(devtools)
-# Install latest version
-devtools::install_github("ABS-dev/DiagTestKit")
-```
-```{r}
-#| eval: false
-# Install dependencies
-devtools::install_github("ABS-dev/DiagTestKit", dependencies = TRUE)
-```
-```{r}
-#| eval: false
-# Install older version
-devtools::install_github("ABS-dev/DiagTestKit", ref = "0.5.0")
-```
-
-Documentation and Vignettes -
-[Manual](https://github.com/ABS-dev/DiagTestKit/blob/main/inst/doc/DiagTestKit_0.6.11.pdf) - 
-[Getting Started](https://github.com/ABS-dev/DiagTestKit/blob/main/inst/doc/DiagTestKit-Getting_Started.pdf) -
-[Examples](https://github.com/ABS-dev/DiagTestKit/blob/main/inst/doc/DiagTestKit-Examples.pdf)
-
-<hr>
+:::: {.columns}
+::: {.column width="49%"}
 
 **MF** - 
 [source](https://github.com/ABS-dev/MF) - 
@@ -56,28 +31,33 @@ Documentation and Vignettes -
 Mitigated Fraction
 
 ```{r}
-#| eval: false
 require(devtools)
 # Install latest version
 devtools::install_github("ABS-dev/MF")
 ```
+
 ```{r}
-#| eval: false
 # Install dependencies
-devtools::install_github("ABS-dev/MF", dependencies = TRUE)
+devtools::install_github("ABS-dev/MF",
+                         dependencies = TRUE)
 ```
+
 ```{r}
-#| eval: false
 # Install older version
-devtools::install_github("ABS-dev/MF", ref = "4.3.3")
+devtools::install_github("ABS-dev/MF",
+                         ref = "4.3.3")
 ```
 
-Documentation and Vignettes -
-[Manual](https://github.com/ABS-dev/MF/blob/main/inst/doc/MF_4.4.11.pdf) -
-[Hierarchical Data Quick Start](https://github.com/ABS-dev/MF/blob/main/inst/doc/QuickStartHierData.pdf) -
-[Hierarchical Data](https://github.com/ABS-dev/MF/blob/main/inst/doc/MFHierarchicalData.pdf)
+Documentation and Vignettes:
 
-<hr>
+-   [Manual](https://github.com/ABS-dev/MF/blob/main/inst/doc/MF_4.4.11.pdf)
+-   [Hierarchical Data Quick Start](https://github.com/ABS-dev/MF/blob/main/inst/doc/QuickStartHierData.pdf)
+-   [Hierarchical Data](https://github.com/ABS-dev/MF/blob/main/inst/doc/MFHierarchicalData.pdf)
+
+:::
+::: {.column width="2%"}
+:::
+::: {.column width="49%"}
 
 **PF** - 
 [source](https://github.com/ABS-dev/PF) - 
@@ -86,53 +66,110 @@ Documentation and Vignettes -
 Prevented Fraction
 
 ```{r}
-#| eval: false
 require(devtools)
 # Install latest version
 devtools::install_github("ABS-dev/PF")
 ```
+
 ```{r}
-#| eval: false
 # Install dependencies
-devtools::install_github("ABS-dev/PF", dependencies = TRUE)
-```
-```{r}
-#| eval: false
-# Install older version
-devtools::install_github("ABS-dev/PF", ref = "9.5")
+devtools::install_github("ABS-dev/PF",
+                         dependencies = TRUE)
 ```
 
-Documentation and Vignettes - 
-[Manual](https://github.com/ABS-dev/PF/blob/main/inst/doc/PF_9.6.10.pdf) - 
-[PF Vignette](https://github.com/ABS-dev/PF/blob/main/inst/doc/PFVignette.html)
+```{r}
+# Install older version
+devtools::install_github("ABS-dev/PF",
+                         ref = "9.5")
+```
+
+Documentation and Vignettes
+
+-   [Manual](https://github.com/ABS-dev/PF/blob/main/inst/doc/PF_9.6.10.pdf)
+-   [PF Vignette](https://github.com/ABS-dev/PF/blob/main/inst/doc/PFVignette.html)
+
+:::
+::::
 
 <hr>
 
-**skrmdb** - 
-[source](https://github.com/ABS-dev/skrmdb) - 
-[version history](https://github.com/ABS-dev/skrmdb/tags)
+:::: {.columns}
+::: {.column width="49%"}
+
+**skrmdb**
+
+-   [source](https://github.com/ABS-dev/skrmdb)
+-   [version history](https://github.com/ABS-dev/skrmdb/tags)
 
 Package to estimate ED50 by the methods of Spearman-Kärber, Reed-Muench, and Drägstedt-Behrens.
 
 ```{r}
-#| eval: false
 require(devtools)
 # Install latest version
 devtools::install_github("ABS-dev/skrmdb")
 ```
+
 ```{r}
-#| eval: false
 # Install dependencies
-devtools::install_github("ABS-dev/skrmdb", dependencies = TRUE)
-```
-```{r}
-#| eval: false
-# Install older version
-devtools::install_github("ABS-dev/skrmdb", ref = "4.2.4")
+devtools::install_github("ABS-dev/skrmdb",
+                         dependencies = TRUE)
 ```
 
-Documentation and Vignettes - 
-[Manual](https://github.com/ABS-dev/skrmdb/blob/main/inst/doc/skrmdb_4.5.0.pdf) -
-[skrmdb vignette](https://github.com/ABS-dev/skrmdb/blob/main/inst/doc/using_skrmdb.html)
+```{r}
+# Install older version
+devtools::install_github("ABS-dev/skrmdb",
+                         ref = "4.2.4")
+```
+
+Documentation and Vignettes
+
+-   [Manual](https://github.com/ABS-dev/skrmdb/blob/main/inst/doc/skrmdb_4.5.0.pdf)
+-   [skrmdb vignette](https://github.com/ABS-dev/skrmdb/blob/main/inst/doc/using_skrmdb.html)
+
+:::
+::: {.column width="2%"}
+:::
+::: {.column width="49%"}
+
+**DiagTestKit**
+
+-   [source](https://github.com/ABS-dev/DiagTestKit)
+-   [version history](https://github.com/ABS-dev/DiagTestKit/tags)
+
+A package written by CVB Statistics to estimate the sensitivity and specificity of an experimental diagnostic test kit in accordance with [CVB STATWI0002](https://www.aphis.usda.gov/veterinary-biologics/regulations-guidance/statistical-methods) supporting the 2018 revision to [VSM 800.73](https://www.aphis.usda.gov/veterinary-biologics/memoranda).
+
+```{r}
+require(devtools)
+# Install latest version
+devtools::install_github("ABS-dev/DiagTestKit")
+```
+
+```{r}
+# Install dependencies
+devtools::install_github("ABS-dev/DiagTestKit",
+                         dependencies = TRUE)
+```
+
+```{r}
+# Install older version
+devtools::install_github("ABS-dev/DiagTestKit",
+                         ref = "0.5.0")
+```
+
+Documentation and Vignettes
+
+-   [Manual](https://github.com/ABS-dev/DiagTestKit/blob/main/inst/doc/DiagTestKit_0.6.11.pdf)
+-   [Getting Started](https://github.com/ABS-dev/DiagTestKit/blob/main/inst/doc/DiagTestKit-Getting_Started.pdf)
+-   [Examples](https://github.com/ABS-dev/DiagTestKit/blob/main/inst/doc/DiagTestKit-Examples.pdf)
+
+:::
+::::
+
+
+
+
+<hr>
+
+
 
 <small><small>Updated `r Sys.Date()`</small></small>
