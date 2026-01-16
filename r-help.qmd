@@ -15,23 +15,22 @@ format:
 
 ## Structure your request as a minimal working example
 
-Minimal working examples allow for questions to be addressed quickly, without the need to interview users multiple times for complete information.
+Minimal reproducible working examples ([reprex](https://tidyverse.org/help/)) allow for questions to be addressed quickly, without the need to interview users multiple times for complete information.
 
-- Provide runnable code needed to reproduce the error.
-  - **ONLINE**, via issues page (Preferred)
-    - Use four (4) backticks on their own line at the start and end of the code related to the minimal working example.
-    - Include the errors you are seeing. You can copy from your console output or paste a screenshot. DO NOT include or link a separate file!
-  - **EMAIL**, [CVB.Data.Help@aphis.usda.gov](CVB.Data.Help@aphis.usda.gov)
-    - Include a .Rmd file and the compiled PDF output so we can see the errors that are
-generated on your system.
-    - Set the .Rmd file to recover from errors by including the command `knitr::opts_chunk$set(error = TRUE)` in the first chunk.
-- As part of the runnable code, include a minimal dataset. Do not include data as a separate data file. Do not include any data conversions, make sure provided data is already in the correct format. Although routine workflows involve data wrangling, we are not troubleshooting that step here.
-- Do not copy-paste a whole function or chunk of code that gives an error (or multiple errors!). First,
+1. Provide runnable code needed to reproduce the error.
+    - **ONLINE**: via issues page (Preferred)
+        - Use four (4) backticks on their own line at the start and end of the code related to the minimal working example.
+        - Include the errors you are seeing. You can copy from your console output or paste a screenshot. DO NOT include or link a separate file!
+    - **EMAIL**: [CVB.Data.Help@aphis.usda.gov](mailto:CVB.Data.Help@aphis.usda.gov)
+        - Include a .Rmd file and the compiled PDF output so we can see the errors that are generated on your system.
+        - Set the .Rmd file to recover from errors by including the command `knitr::opts_chunk$set(error = TRUE)` in the first chunk.
+2. As part of the runnable code, include a minimal dataset. Do not include data as a separate data file. Do not include any data conversions, make sure provided data is already in the correct format. Although routine workflows involve data wrangling, we are not troubleshooting that step here.
+3. Do not copy-paste a whole function or chunk of code that gives an error (or multiple errors!). First,
 try to locate which lines exactly result in the error.
-- Include `require()` statements for all packages you use. Do not assume that other people know what packages are loaded on your system startup.
-- Include `sessionInfo()` output.
-- Test run the minimal example in a new, empty R session.
-- If additional manipulation is required to run the minimal working example, the request may be returned or closed without investigation.
+4. Include `require()` statements for all packages you use. Do not assume that other people know what packages are loaded on your system startup.
+5. Include `sessionInfo()` output.
+6. Test run the minimal example in a new, empty R session.
+7. If additional manipulation is required to run the minimal working example, the request may be returned or closed without investigation.
   
 *We work with users to identify issues in example code for our mutual benefit. CVB cannot provide custom `R` training or IT support.*
 
