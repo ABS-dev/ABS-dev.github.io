@@ -15,7 +15,7 @@ Animal Biologics Statisticians is an unofficial and unaffiliated group of indivi
 
 # R Package Installation Instructions
 
-Select package source link for extended installation instructions, vignettes and current work in progress. Report any issues via the relevant package Issues tab and use a [minimal working example](media/CVB%20R%20Help.pdf). [[minimal working example](r-help.html)
+Select package source link for extended installation instructions, vignettes and current work in progress. Report any issues via the relevant package Issues tab and use a [minimal working example](media/CVB%20R%20Help.pdf). [minimal working example](r-help.html)
 
 <img src="media/MF_hex.png"          alt = "MF Package"          style="position:relative;width:150px;left:0px;top:0px" usemap="#MF_map">
 <img src="media/PF_hex.png"          alt = "PF Package"          style="position:relative;width:150px;left:0px;top:0px" usemap="#PF_map">
