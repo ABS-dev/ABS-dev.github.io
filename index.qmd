@@ -3,8 +3,6 @@ format:
   html:
     page-layout: full
     embed-resources: true
-execute: 
-  eval: false
 ---
 
 [![](media/logo.png){fig-alt="Animal Biologics Statisticians Logo"}](https://github.com/ABS-dev)
@@ -56,5 +54,8 @@ Select package source link for extended installation instructions, vignettes and
 <hr>
 
 
+```{r}
+#| echo: false
+```
 
 <small><small>Updated `r Sys.Date()` </small></small>
