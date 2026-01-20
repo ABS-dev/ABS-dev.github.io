@@ -13,6 +13,7 @@ website:
         - r-help.qmd
 format:
   html:
+    respect-user-color-scheme: true
     theme:
       light: cosmo
       dark: [cosmo, theme-dark.scss]
