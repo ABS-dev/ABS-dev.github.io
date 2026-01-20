@@ -2,7 +2,7 @@
 format: html
 ---
 
-[![](media/logo.png){fig-alt="Animal Biologics Statisticians Logo"}](https://github.com/ABS-dev)
+[![](media/ABS-logo2.png){fig-alt="Animal Biologics Statisticians Logo"}](https://github.com/ABS-dev)
 
 **Animal Biologics Statisticians**
 
