@@ -55,4 +55,15 @@ Select package source link for extended installation instructions, vignettes and
 #| echo: false
 ```
 
-<small><small>Updated `r Sys.Date()` </small></small>
+<small>
+
+:::: {.columns}
+::: {.column width="50%"}
+Updated `r Sys.Date()`
+:::
+::: {.column style="text-align: right;"}
+[CVB.Data.Help@aphis.usda.gov](mailto:CVB.Data.Help@aphis.usda.gov)
+:::
+::::
+
+</small>
