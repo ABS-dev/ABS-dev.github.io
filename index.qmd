@@ -1,8 +1,5 @@
 ---
-format: 
-  html:
-    page-layout: full
-    embed-resources: true
+format: html
 ---
 
 [![](media/logo.png){fig-alt="Animal Biologics Statisticians Logo"}](https://github.com/ABS-dev)

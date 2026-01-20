@@ -1,8 +1,5 @@
 ---
 title: "How to Submit Reproducible Examples"
-format:
-  html:
-    embed-resources: true
 ---
 
 ## Before submitting requests
