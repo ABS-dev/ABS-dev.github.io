@@ -18,6 +18,7 @@ Select package source link for extended installation instructions, vignettes and
 <img src="media/PF_hex.png"          alt = "PF Package"          style="position:relative;width:150px;left:0px;top:0px" usemap="#PF_map">
 <img src="media/skrmdb_hex.png"      alt = "skrmdb Package"      style="position:relative;width:150px;left:0px;top:0px" usemap="#skrmdb_map">
 <img src="media/DiagTestKit_hex.png" alt = "DiagTestKit Package" style="position:relative;width:150px;left:0px;top:0px" usemap="#DiagTestKit_map">
+<img src="media/Template_hex.png"    alt = "Plate Reader Templates" style="position:relative;width:150px;left:0px;top:0px" usemap="#Templates_map">
 
 <map name="MF_map">
   <area shape="poly"
@@ -45,6 +46,13 @@ Select package source link for extended installation instructions, vignettes and
   coords="0,43,75,0,150,43,150,130,75,174,0,130"
   alt="DiagTestKit"
   href="https://abs-dev.github.io/DiagTestKit/">
+</map>
+
+<map name="Templates_map">
+  <area shape="poly"
+  coords="0,43,75,0,150,43,150,130,75,174,0,130"
+  alt="Templates"
+  href="https://github.com/ABS-dev/Templates">
 </map>
 
 
